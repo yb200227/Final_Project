@@ -2,7 +2,7 @@
 
 ![Demo App](/frontend/public/screenshot-for-readme.png)
 
-[All credits go to](https://youtu.be/4sbklcQ0EXc)
+[All Credits Go To](https://youtu.be/4sbklcQ0EXc)
 
 This project allows you to:
 
