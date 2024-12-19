@@ -1,4 +1,4 @@
-<h1 align="center">Realtime Spotify Application ✨</h1>
+<h1 align="center">Realtime Spotify Application </h1>
 
 ![Demo App](/frontend/public/screenshot-for-readme.png)
 
