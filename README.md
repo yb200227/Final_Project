@@ -2,9 +2,9 @@
 
 ![Demo App](/frontend/public/screenshot-for-readme.png)
 
-[Watch Full Tutorial on Youtube](https://youtu.be/4sbklcQ0EXc)
+[All credits go to](https://youtu.be/4sbklcQ0EXc)
 
-About This Course:
+This project allows you to:
 
 -   🎸 Listen to music, play next and previous songs
 -   🔈 Update the volume with a slider
@@ -14,4 +14,3 @@ About This Course:
 -   👀 See what other users are listening to in real-time
 -   📊 Aggregate data for the analytics page
 -   🚀 And a lot more...
-
