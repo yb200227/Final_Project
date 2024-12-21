@@ -16,7 +16,6 @@ const AlbumPage = () => {
 	const { albumId } = useParams();
 	const { fetchAlbumById, currentAlbum, isLoading } = useMusicStore();
 	const { currentSong, isPlaying, playAlbum, togglePlay } = usePlayerStore();
-
 	useEffect(() => {
 		if (albumId) fetchAlbumById(albumId);
 	}, [fetchAlbumById, albumId]);
@@ -39,7 +38,6 @@ const AlbumPage = () => {
 
 		playAlbum(currentAlbum?.songs, index);
 	};
-
 	return (
 		<div className='h-full'>
 			<ScrollArea className='h-full rounded-md'>
