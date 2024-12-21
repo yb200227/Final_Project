@@ -12,7 +12,6 @@ const FriendsActivity = () => {
 	useEffect(() => {
 		if (user) fetchUsers();
 	}, [fetchUsers, user]);
-
 	return (
 		<div className='h-full bg-zinc-900 rounded-lg flex flex-col'>
 			<div className='p-4 flex justify-between items-center border-b border-zinc-800'>
@@ -21,9 +20,7 @@ const FriendsActivity = () => {
 					<h2 className='font-semibold'>What they're listening to</h2>
 				</div>
 			</div>
-
 			{!user && <LoginPrompt />}
-
 			<ScrollArea className='flex-1'>
 				<div className='p-4 space-y-4'>
 					{users.map((user) => {
@@ -78,7 +75,6 @@ const FriendsActivity = () => {
 	);
 };
 export default FriendsActivity;
-
 const LoginPrompt = () => (
 	<div className='h-full flex flex-col items-center justify-center p-6 text-center space-y-4'>
 		<div className='relative'>
