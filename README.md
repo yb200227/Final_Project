@@ -2,8 +2,6 @@
 
 ![Demo App](/frontend/public/screenshot-for-readme.png)
 
-[All Credits Go To](https://youtu.be/4sbklcQ0EXc)
-
 This project allows you to:
 
 -   🎸 Listen to music, play next and previous songs
